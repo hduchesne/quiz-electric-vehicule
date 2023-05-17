@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "id": "ev-scoring-plan",
+    "name": "EV quiz score",
+    "description": "Visitor score about knowledge of EV",
+    "scope": "motor-retail",
+    "tags": [],
+    "systemTags": [],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "itemId": "ev-scoring-plan",
+  "itemType": "scoring",
+  "elements": [{
+    "condition": {
+      "parameterValues": {
+        "propertyName": "properties.ev-open-to-buy-ev",
+        "comparisonOperator": "equals",
+        "propertyValue": "true"
+      },
+      "type": "profilePropertyCondition"
+    },
+    "value": 3
+  }, {
+    "condition": {
+      "parameterValues": {
+        "propertyName": "properties.ev-owner",
+        "comparisonOperator": "equals",
+        "propertyValue": "true"
+      },
+      "type": "profilePropertyCondition"
+    },
+    "value": 5
+  }]
+}

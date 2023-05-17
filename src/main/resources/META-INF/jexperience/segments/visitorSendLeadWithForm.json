@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "id": "segm__VisitorSendLeadWithForm",
+    "name": "Visitor send a lead with form",
+    "description": "Visitor used the lead form",
+    "scope": "motor-retail",
+    "tags": [],
+    "systemTags": [],
+    "enabled": true
+  },
+  "itemId": "segm__VisitorSendLeadWithForm",
+  "itemType": "segment",
+  "condition": {
+    "parameterValues": {
+      "goalId": "goal__DriveMotorLeadForm",
+      "comparisonOperator": "exists"
+    },
+    "type": "goalMatchCondition"
+  }
+}

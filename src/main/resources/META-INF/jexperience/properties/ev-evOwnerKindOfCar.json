@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "string",
+  "metadata": {
+    "id": "ev-owner-kind-of-ev",
+    "name": "_ev_Owner kind of EV",
+    "systemTags": [
+      "positionInCard.4",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

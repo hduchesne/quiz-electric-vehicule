@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "string",
+  "metadata": {
+    "id": "ev-incentives-to-buy",
+    "name": "_ev_Incentives to Buy an EV",
+    "systemTags": [
+      "positionInCard.1",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "id": "open2buyEv",
+    "name": "[EV] Open to buy an EV",
+    "description": "User Open to buy an EV",
+    "scope": "motor-retail",
+    "enabled": true
+  },
+  "itemId": "open2buyEv",
+  "itemType": "segment",
+  "condition": {
+    "parameterValues": {
+      "operator": "and",
+      "subConditions": [
+        {
+          "parameterValues": {
+            "comparisonOperator": "greaterThanOrEqualTo",
+            "scoreValue": 3,
+            "scoringPlanId": "ev-scoring-plan"
+          },
+          "type": "scoringCondition"
+        },
+        {
+          "parameterValues": {
+            "comparisonOperator": "lessThanOrEqualTo",
+            "scoreValue": 4,
+            "scoringPlanId": "ev-scoring-plan"
+          },
+          "type": "scoringCondition"
+        }
+      ]
+    },
+    "type": "booleanCondition"
+  }
+}

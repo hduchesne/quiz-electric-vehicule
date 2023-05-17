@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "string",
+  "metadata": {
+    "id": "_car_favoriteColor",
+    "name": "_car_Favorite Colors",
+    "systemTags": [
+      "positionInCard.5",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

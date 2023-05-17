@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "boolean",
+  "metadata": {
+    "id": "ev-owner",
+    "name": "_ev_Owner",
+    "systemTags": [
+      "positionInCard.2",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

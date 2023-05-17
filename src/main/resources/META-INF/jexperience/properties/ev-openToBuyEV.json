@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "boolean",
+  "metadata": {
+    "id": "ev-open-to-buy-ev",
+    "name": "_ev_Open to buy an EV",
+    "systemTags": [
+      "positionInCard.0",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

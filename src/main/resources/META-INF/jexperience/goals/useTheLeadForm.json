@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "id": "goal__DriveMotorLeadForm",
+    "name": "Use the lead form",
+    "scope": "motor-retail",
+    "systemTags": [
+      "formGoal",
+      "goal"
+    ],
+    "enabled": true
+  },
+  "itemId": "goal__DriveMotorLeadForm",
+  "itemType": "goal",
+  "startEvent": {
+    "parameterValues": {
+      "pagePath": "/sites/motor-retail/home"
+    },
+    "type": "pageViewEventCondition"
+  },
+  "targetEvent": {
+    "parameterValues": {
+      "subConditions": [
+        {
+          "parameterValues": {
+            "formId": "ffcontactus"
+          },
+          "type": "formEventCondition"
+        },
+        {
+          "parameterValues": {
+            "path": "/sites/motor-retail/home"
+          },
+          "type": "sourceEventPropertyCondition"
+        }
+      ],
+      "operator": "and"
+    },
+    "type": "booleanCondition"
+  }
+}

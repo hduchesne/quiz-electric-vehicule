@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "id": "evBuyer",
+    "name": "[EV] EV buyer",
+    "description": "User that have already bought an EV",
+    "scope": "motor-retail",
+    "enabled": true
+  },
+  "itemId": "evBuyer",
+  "itemType": "segment",
+  "condition": {
+    "parameterValues": {
+      "scoringPlanId": "ev-scoring-plan",
+      "scoreValue": 5,
+      "comparisonOperator": "greaterThanOrEqualTo"
+    },
+    "type": "scoringCondition"
+  }
+}

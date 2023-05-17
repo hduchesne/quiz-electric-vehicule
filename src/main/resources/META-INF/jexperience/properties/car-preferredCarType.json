@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "string",
+  "metadata": {
+    "id": "_car_preferredCarType",
+    "name": "_car_Preferred type of car",
+    "systemTags": [
+      "positionInCard.6",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}

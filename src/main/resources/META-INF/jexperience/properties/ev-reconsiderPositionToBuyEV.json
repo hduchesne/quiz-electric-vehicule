@@ -1,0 +1,15 @@
+{
+  "target": "profiles",
+  "multivalued": false,
+  "type": "string",
+  "metadata": {
+    "id": "ev-reconsider-position-to-buy",
+    "name": "_ev_Reconsider position to Buy an EV",
+    "systemTags": [
+      "positionInCard.3",
+      "cardDataTag/_evQuiz/1/Car Quizzes",
+      "hasCardDataTag"
+    ],
+    "readOnly": false
+  }
+}
