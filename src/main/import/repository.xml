@@ -1,14 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+<content xmlns:game4="http://modules.se.jahia.org/game-4-jcustomer/1.0"
+         xmlns:j="http://www.jahia.org/jahia/1.0"
+         xmlns:jcr="http://www.jcp.org/jcr/1.0"
+         xmlns:wem="http://www.jahia.org/jahia/wem/1.0">
    <modules jcr:primaryType="jnt:modules">
-      <quiz-electric-vehicule j:dependencies="default"
+      <quiz-electric-vehicule j:dependencies="default game-4-jcustomer-components-quiz"
                               j:modulePriority="0"
                               j:moduleType="module"
                               j:title="Quiz Electric Vehicule"
                               jcr:primaryType="jnt:module">
          <portlets jcr:primaryType="jnt:portletFolder"/>
-         <files jcr:primaryType="jnt:folder"/>
-         <contents jcr:primaryType="jnt:contentFolder"/>
+         <files jcr:primaryType="jnt:folder">
+            <images jcr:primaryType="jnt:folder">
+               <cars jcr:primaryType="jnt:folder">
+                  <elec-car-4.jpg j:height="900"
+                                  j:width="2220"
+                                  jcr:mixinTypes="jmix:image"
+                                  jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </elec-car-4.jpg>
+                  <ec4-charge-1.jpg j:height="430"
+                                    j:width="1500"
+                                    jcr:mixinTypes="jmix:image"
+                                    jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </ec4-charge-1.jpg>
+                  <e-space-tourer-charge-2.jpg j:height="430"
+                                               j:width="1500"
+                                               jcr:mixinTypes="jmix:image"
+                                               jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </e-space-tourer-charge-2.jpg>
+                  <e-space-tourer-charge-1.jpg j:height="430"
+                                               j:width="1500"
+                                               jcr:mixinTypes="jmix:image"
+                                               jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </e-space-tourer-charge-1.jpg>
+                  <ec4-charge-3.jpg j:height="540"
+                                    j:width="1480"
+                                    jcr:mixinTypes="jmix:image"
+                                    jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </ec4-charge-3.jpg>
+                  <ec4-charge-2.jpg j:height="430"
+                                    j:width="1500"
+                                    jcr:mixinTypes="jmix:image"
+                                    jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </ec4-charge-2.jpg>
+                  <fast-charging-station.jpg j:height="1000"
+                                             j:keywords="EVgo"
+                                             j:subject="EVgo"
+                                             j:width="1500"
+                                             j:xresolution="72 dots"
+                                             j:yresolution="72 dots"
+                                             jcr:mixinTypes="jmix:image jmix:document jmix:keywords jmix:exif"
+                                             jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </fast-charging-station.jpg>
+                  <traffic-jam-in-london.jpg j:height="1080"
+                                             j:width="1920"
+                                             jcr:mixinTypes="jmix:image"
+                                             jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </traffic-jam-in-london.jpg>
+               </cars>
+            </images>
+         </files>
+         <contents jcr:primaryType="jnt:contentFolder">
+            <quizzes j:contributeTypes="game4nt:quiz"
+                     j:deletedChildren="d1ea1568-7e48-4a75-8c9a-ee45f594a977"
+                     j:editableInContribution="true"
+                     jcr:mixinTypes="jmix:deletedChildren jmix:contributeMode"
+                     jcr:primaryType="jnt:contentFolder">
+               <j:translation_en jcr:language="en"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="quizzes"/>
+               <j:translation_de jcr:language="de"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="quiz"/>
+               <j:translation_it jcr:language="it"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="quiz"/>
+               <j:translation_fr jcr:language="fr"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="quiz"/>
+               <j:translation_es jcr:language="es"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="quiz"/>
+               <j:translation_de_DE jcr:language="de_DE"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="quiz"/>
+               <j:translation_pt jcr:language="pt"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="questionário"/>
+               <do-you-know-everything game4:browsing="false"
+                                       game4:duration="5 mins"
+                                       game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-1.jpg"
+                                       game4:quizKey="EV-202111"
+                                       game4:reset="false"
+                                       game4:transition="false"
+                                       game4:webappTheme="{&#xA;  &#34;palette&#34;: {&#xA;    &#34;primary&#34;:{&#xA;      &#34;light&#34;: &#34;#f52b21&#34;,&#xA;      &#34;main&#34;: &#34;#da261b&#34;,&#xA;      &#34;dark&#34;: &#34;#b21e17&#34;&#xA;    },&#xA;    &#34;background&#34;:{&#xA;      &#34;overlay&#34;: {&#xA;        &#34;start&#34;:&#34;rgba(0,0,0,.85)&#34;,&#xA;        &#34;startMiddle&#34;:&#34;rgba(0,0,0,.8)&#34;,&#xA;        &#34;endMiddle&#34;:&#34;rgba(0,0,0,.75)&#34;,&#xA;        &#34;end&#34;:&#34;rgba(0,0,0,.65)&#34;&#xA;      }&#xA;    }&#xA;  },&#xA;  &#34;overrides&#34;: {&#xA;    &#34;MuiTypography&#34;:{&#xA;      &#34;body1&#34;:{&#xA;        &#34;&amp; a&#34;:{&#xA;          &#34;color&#34;:&#34;#da261b&#34;&#xA;        }&#xA;      }&#xA;    }&#xA;  }&#xA;}"
+                                       jcr:mixinTypes="game4mix:quizConfiguration"
+                                       jcr:primaryType="game4nt:quiz">
+                  <j:translation_en game4:btnNextQuestion="Next question"
+                                    game4:btnQuestion="Question"
+                                    game4:btnReset="Reset"
+                                    game4:btnShowResults="My score"
+                                    game4:btnStart="Start"
+                                    game4:btnSubmit="Submit"
+                                    game4:consentTitle="Consent"
+                                    game4:correctAnswer="Correct"
+                                    game4:description="&lt;p&gt;Test your knowledge about VE in 5 mins or less!&lt;/p&gt;&#xA;"
+                                    game4:subtitle="about Electric vehicle"
+                                    game4:wrongAnswer="Incorrect"
+                                    jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Do you know everything"/>
+                  <ev-licensed-in-uk-2021 game4:image="#/modules/quiz-electric-vehicule/files/images/cars/traffic-jam-in-london.jpg"
+                                          game4:randomSelection="true"
+                                          jcr:primaryType="game4nt:qna">
+                     <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;11,500&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;55,000&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;300,000&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;1,450,000&#34;,&#34;cdpValue&#34;:&#34;&#34;}"
+                                       game4:question="How many EVs are licensed in UK end of June 2021?"
+                                       jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Ev licensed in UK 2021"/>
+                  </ev-licensed-in-uk-2021>
+                  <rapid-charge-time game4:image="#/modules/quiz-electric-vehicule/files/images/cars/e-space-tourer-charge-1.jpg"
+                                     game4:randomSelection="true"
+                                     jcr:primaryType="game4nt:qna">
+                     <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;5_x0020_minutes&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;35_x0020_minutes&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;1_x0020_hour_x0020_15_x0020_minutes&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;2_x0020_hours&#34;,&#34;cdpValue&#34;:&#34;&#34;}"
+                                       game4:question="How much time it take to adds 100 miles with 'rapid' 50kW chargers?"
+                                       jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Rapid Charge time"/>
+                  </rapid-charge-time>
+                  <rapid-public-charging-station-in game4:image="#/modules/quiz-electric-vehicule/files/images/cars/fast-charging-station.jpg"
+                                                    game4:randomSelection="true"
+                                                    jcr:primaryType="game4nt:qna">
+                     <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;450&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;1,000&#34;,&#34;cdpValue&#34;:&#34;&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;3,500&#34;,&#34;cdpValue&#34;:&#34;&#34;}"
+                                       game4:help="They are part of the public charging station in UK discussed previously"
+                                       game4:question="How many RAPID public charging station are available in UK in 2021?"
+                                       jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Rapid public charging station in UK"/>
+                  </rapid-public-charging-station-in>
+                  <before-to-see-your-score game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-2.jpg"
+                                            game4:qnaDuration="5 mins"
+                                            jcr:primaryType="game4nt:warmup">
+                     <j:translation_en game4:subtitle="Tell us more about EV and you"
+                                       jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Before to see your score"/>
+                     <ev-owner game4:image="#/modules/quiz-electric-vehicule/files/images/cars/e-space-tourer-charge-2.jpg"
+                               game4:jExpCard="Car Quizzes"
+                               game4:jExpProperty="ev-owner"
+                               game4:notUsedForScore="true"
+                               game4:randomSelection="false"
+                               jcr:primaryType="game4nt:qna">
+                        <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;Yes_x0020_I_x0020_did&#34;,&#34;cdpValue&#34;:&#34;true&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;No&#34;,&#34;cdpValue&#34;:&#34;false&#34;}"
+                                          game4:question="Have you ever bought an EV?"
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="EV owner"/>
+                     </ev-owner>
+                  </before-to-see-your-score>
+                  <buyer-or-not j:workInProgressStatus="DISABLED"
+                                jcr:mixinTypes="wemmix:personalizedList"
+                                jcr:primaryType="game4nt:warmupPerso"
+                                wem:active="true"
+                                wem:persoControlGroupActive="false"
+                                wem:persoControlGroupSessionStorage="false"
+                                wem:personalizationStrategy="matching-first">
+                     <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Buyer or Not"/>
+                     <you-told-us-you-ever-buy-an-ev game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-1.jpg"
+                                                     game4:qnaDuration="5 mins"
+                                                     jcr:mixinTypes="wemmix:editItem"
+                                                     jcr:primaryType="game4nt:warmup"
+                                                     wem:jsonFilter="{&#34;filters&#34;:[{&#34;condition&#34;:{&#34;type&#34;:&#34;profilePropertyCondition&#34;,&#34;parameterValues&#34;:{&#34;propertyName&#34;:&#34;properties.ev-owner&#34;,&#34;comparisonOperator&#34;:&#34;equals&#34;,&#34;propertyValue&#34;:&#34;true&#34;}}}]}"
+                                                     wem:tab="custom">
+                        <j:translation_en game4:subtitle="Let's see what you bought..."
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="You told us you ever buy an EV"/>
+                        <kind-of-ev-car game4:image="#/modules/quiz-electric-vehicule/files/images/cars/fast-charging-station.jpg"
+                                        game4:jExpCard="Car Quizzes"
+                                        game4:jExpProperty="ev-owner-kind-of-ev"
+                                        game4:notUsedForScore="true"
+                                        game4:randomSelection="false"
+                                        jcr:primaryType="game4nt:qna">
+                           <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;A_x0020_family_x0020_car&#34;,&#34;cdpValue&#34;:&#34;family&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;A_x0020_sports_x0020_car,_x0020_it_x0020_is_x0020_only_x0020_for_x0020_my_x0020_pleasure&#34;,&#34;cdpValue&#34;:&#34;sport&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;A_x0020_city_x0020_car,_x0020_it_x0020_is_x0020_only_x0020_to_x0020_go_x0020_to_x0020_work&#34;,&#34;cdpValue&#34;:&#34;city&#34;}"
+                                             game4:question="What kind of car did you buy?"
+                                             jcr:language="en"
+                                             jcr:mixinTypes="mix:title"
+                                             jcr:primaryType="jnt:translation"
+                                             jcr:title="Kind of EV car"/>
+                        </kind-of-ev-car>
+                     </you-told-us-you-ever-buy-an-ev>
+                     <you-told-us-you-never-buy-an-ev game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-1.jpg"
+                                                      game4:qnaDuration="5 mins"
+                                                      jcr:mixinTypes="wemmix:editItem"
+                                                      jcr:primaryType="game4nt:warmup"
+                                                      wem:tab="no-condition">
+                        <j:translation_en game4:subtitle="Let see if you are open to buy..."
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="You told us you never buy an EV"/>
+                        <considered-buying-an-ev game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-1.jpg"
+                                                 game4:jExpCard="Car Quizzes"
+                                                 game4:jExpProperty="ev-open-to-buy-ev"
+                                                 game4:notUsedForScore="true"
+                                                 game4:randomSelection="false"
+                                                 jcr:primaryType="game4nt:qna">
+                           <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;Yes_x0020_I_x0020_did&#34;,&#34;cdpValue&#34;:&#34;true&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;Nope_x0020_It_x0020_is_x0020_not_x0020_an_x0020_option&#34;,&#34;cdpValue&#34;:&#34;false&#34;}"
+                                             game4:question="Have you ever considered buying an EV?"
+                                             jcr:language="en"
+                                             jcr:mixinTypes="mix:title"
+                                             jcr:primaryType="jnt:translation"
+                                             jcr:title="Considered buying an EV"/>
+                        </considered-buying-an-ev>
+                        <open-to-buy-an-ev jcr:mixinTypes="wemmix:personalizedList"
+                                           jcr:primaryType="game4nt:qnaPerso"
+                                           wem:active="true"
+                                           wem:persoControlGroupActive="false"
+                                           wem:persoControlGroupSessionStorage="false"
+                                           wem:personalizationStrategy="matching-first">
+                           <j:translation_en jcr:language="en"
+                                             jcr:mixinTypes="mix:title"
+                                             jcr:primaryType="jnt:translation"
+                                             jcr:title="Open to Buy an EV or not"/>
+                           <incentives-to-buy-an-ev game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-3.jpg"
+                                                    game4:jExpCard="Car Quizzes"
+                                                    game4:jExpProperty="ev-incentives-to-buy"
+                                                    game4:notUsedForScore="true"
+                                                    game4:randomSelection="false"
+                                                    jcr:mixinTypes="wemmix:editItem"
+                                                    jcr:primaryType="game4nt:qna"
+                                                    wem:jsonFilter="{&#34;filters&#34;:[{&#34;condition&#34;:{&#34;type&#34;:&#34;profilePropertyCondition&#34;,&#34;parameterValues&#34;:{&#34;propertyName&#34;:&#34;properties.ev-open-to-buy-ev&#34;,&#34;comparisonOperator&#34;:&#34;equals&#34;,&#34;propertyValue&#34;:&#34;true&#34;}}}]}"
+                                                    wem:tab="custom">
+                              <j:translation_en game4:answers="{&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;Installation_x0020_of_x0020_the_x0020_charging_x0020_station_x0020_for_x0020_free&#34;,&#34;cdpValue&#34;:&#34;free_x0020_charging_x0020_station&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;Nothing&#34;,&#34;cdpValue&#34;:&#34;nothing&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;Purchase_x0020_subsidy&#34;,&#34;cdpValue&#34;:&#34;subsidy&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;Covering_x0020_more_x0020_miles_x0020_on_x0020_a_x0020_single_x0020_charge&#34;,&#34;cdpValue&#34;:&#34;more_x0020_miles&#34;} {&#34;isAnswer&#34;:true,&#34;label&#34;:&#34;Save_x0020_the_x0020_planet&#34;,&#34;cdpValue&#34;:&#34;save_x0020_the_x0020_planet&#34;}"
+                                                game4:question="What would be the incentives for buying an EV right now?"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Incentives to buy an EV right now"/>
+                           </incentives-to-buy-an-ev>
+                           <reconsider-your-position game4:image="#/modules/quiz-electric-vehicule/files/images/cars/elec-car-4.jpg"
+                                                     game4:jExpCard="Car Quizzes"
+                                                     game4:jExpProperty="ev-reconsider-position-to-buy"
+                                                     game4:notUsedForScore="true"
+                                                     game4:randomSelection="false"
+                                                     jcr:mixinTypes="wemmix:editItem"
+                                                     jcr:primaryType="game4nt:qna"
+                                                     wem:tab="no-condition">
+                              <j:translation_en game4:answers="{&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;In_x0020_a_x0020_month&#34;,&#34;cdpValue&#34;:&#34;month&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;In_x0020_a_x0020_year&#34;,&#34;cdpValue&#34;:&#34;year&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;Few_x0020_years&#34;,&#34;cdpValue&#34;:&#34;years&#34;} {&#34;isAnswer&#34;:false,&#34;label&#34;:&#34;Never!_x0020_electric_x0020_cars_x0020_will_x0020_soon_x0020_be_x0020_replaced_x0020_by_x0020_hydrogen_x0020_cars&#34;,&#34;cdpValue&#34;:&#34;hydrogen&#34;}"
+                                                game4:question="When do you think you will reconsider your position?"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Reconsider your position"/>
+                           </reconsider-your-position>
+                        </open-to-buy-an-ev>
+                     </you-told-us-you-never-buy-an-ev>
+                  </buyer-or-not>
+                  <j:translation_fr game4:btnNextQuestion="Question suivante"
+                                    game4:btnQuestion="Question"
+                                    game4:btnReset="Recommencer"
+                                    game4:btnShowResults="Mon score"
+                                    game4:btnStart="Démarrer"
+                                    game4:btnSubmit="Soumettre"
+                                    game4:consentTitle="Consentement"
+                                    game4:correctAnswer="Correcte"
+                                    game4:wrongAnswer="Incorrecte"
+                                    jcr:language="fr"
+                                    jcr:primaryType="jnt:translation"/>
+               </do-you-know-everything>
+            </quizzes>
+         </contents>
          <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
             <files jcr:primaryType="jnt:folder"/>
             <contents jcr:primaryType="jnt:contentFolder"/>
