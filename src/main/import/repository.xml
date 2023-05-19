@@ -37,14 +37,6 @@
                      <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                      <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                   </e-space-tourer-charge-2.jpg>
-                  <e-space-tourer-charge-1.jpg j:height="430"
-                                               j:width="1500"
-                                               jcr:mixinTypes="jmix:image"
-                                               jcr:primaryType="jnt:file">
-                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                  </e-space-tourer-charge-1.jpg>
                   <ec4-charge-3.jpg j:height="540"
                                     j:width="1480"
                                     jcr:mixinTypes="jmix:image"
@@ -81,6 +73,16 @@
                      <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                      <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                   </traffic-jam-in-london.jpg>
+                  <e-space-tourer-charge-1.jpg j:height="430"
+                                               j:width="1500"
+                                               j:xresolution="72 dots"
+                                               j:yresolution="72 dots"
+                                               jcr:mixinTypes="jmix:image jmix:exif"
+                                               jcr:primaryType="jnt:file">
+                     <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                     <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                  </e-space-tourer-charge-1.jpg>
                </cars>
             </images>
          </files>
@@ -216,7 +218,7 @@
                                           jcr:language="en"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="You told us you ever buy an EV"/>
+                                          jcr:title="You told us you ever bought an EV"/>
                         <kind-of-ev-car game4:image="#/modules/quiz-electric-vehicule/files/images/cars/fast-charging-station.jpg"
                                         game4:jExpCard="Car Quizzes"
                                         game4:jExpProperty="ev-owner-kind-of-ev"
@@ -240,7 +242,7 @@
                                           jcr:language="en"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="You told us you never buy an EV"/>
+                                          jcr:title="You told us you never bought an EV"/>
                         <considered-buying-an-ev game4:image="#/modules/quiz-electric-vehicule/files/images/cars/ec4-charge-1.jpg"
                                                  game4:jExpCard="Car Quizzes"
                                                  game4:jExpProperty="ev-open-to-buy-ev"
