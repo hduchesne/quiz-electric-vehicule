@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.jahia.se.modules</groupId>
   <artifactId>quiz-electric-vehicule</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Quiz Electric Vehicule</name>
   <description>This is the custom module (Quiz Electric Vehicule) for running on a Jahia server.</description>
